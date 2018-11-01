@@ -17,6 +17,7 @@
           <router-view/>
         </div>
         <footer class="main-footer">
+            <p>Copyright © Mijin Corp. All rights reserved.</p>
         </footer>
       </div>
 </template>
@@ -33,10 +34,8 @@ export default {
   	    { link: '/contact', text:'Contact.'}
   	    ],
         isActive: false
-
       }
     },
-
     methods:{
       menuClick: function(){
         this.isActive = !this.isActive;
@@ -44,6 +43,5 @@ export default {
     },
 }
 </script>
-
 <style lang="scss">
 </style>
