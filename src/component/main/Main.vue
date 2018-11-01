@@ -1,7 +1,4 @@
 <template>
-  <div class="container">
-    <div class="headline-image">
-    </div>
     <section class="main-section size-boxing">
       <h1>육아 일기</h1>
       <ul>
@@ -44,7 +41,6 @@
         </li>
       </ul>
     </section>
-  </div>
 </template>
 <script>
 export default {
@@ -202,7 +198,7 @@ export default {
       $('.main-section').sakura();
     });
 
-  },  
+  },
 }
 </script>
 <style>

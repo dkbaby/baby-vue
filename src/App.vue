@@ -11,7 +11,11 @@
   	    <nav :class="{active: isActive}" class="menu-list">
   			  <ul><li v-for="m in menu"><a :href="m.link">{{m.text}}</a></li></ul>
   	    </nav>
-        <router-view/>
+        <div class="container">
+          <div class="headline-image">
+          </div>
+          <router-view/>
+        </div>
         <footer class="main-footer">
         </footer>
       </div>
@@ -22,11 +26,11 @@ export default {
     data: function(){
       return {
   	    menu: [
-  	    { link: 'home', text:'Home.'},
-  	    { link: 'intro', text:'About Me.'},
-  	    { link: 'life', text:'Baby Life.'},
-  	    { link: 'share', text:'Share Info.'},
-  	    { link: 'contact', text:'Contact.'}
+  	    { link: '/', text:'Home.'},
+  	    { link: '/intro', text:'About Me.'},
+  	    { link: '/life', text:'Baby Life.'},
+  	    { link: '/share', text:'Share Info.'},
+  	    { link: '/contact', text:'Contact.'}
   	    ],
         isActive: false
 
