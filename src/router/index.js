@@ -6,6 +6,8 @@ import Life   from '../component/life/Life.vue'
 Vue.use(Router)
 
 export default new Router({
+  // remove # In Url ex) http://localhost:8080/#/table
+  mode: 'history',
   routes : [
      {
        path: '/',
@@ -16,6 +18,4 @@ export default new Router({
        component: Life
      }
   ],
-  // remove # In Url ex) http://localhost:8080/#/table
-  mode: 'history'
 })
