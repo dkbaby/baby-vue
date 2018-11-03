@@ -169,6 +169,7 @@
   background-image: url("/src/assets/img/page2.jpg");
   background-repeat: round;
   background-size: cover;
+  margin-top: 70px;
 }
 
 .main-footer{
